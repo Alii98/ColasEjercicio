@@ -18,6 +18,9 @@ import java.util.ResourceBundle;
  */
 public class Cola  {
 
+    private Nodo frente; //para el inicial de la cola
+    private int tamaño; //para el tamaño de la cola
+
     //constructor con valores iniciales
     public Cola(){
         this.frente= null;
