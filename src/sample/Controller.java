@@ -21,6 +21,12 @@ public class  Controller {
             nuevoElemento(); //invocación del método
         }
     });
+    this.TamañoBtn.setOnAction(new EventHandler<ActionEvent>() {
+        @Override
+        public void handle(ActionEvent event) {
+            TextoLb.setText(c.tamaño());//invocación del método y muestra del mensaje que retorna
+        }
+    });
 
     //Método para un nuevo elemento de pantalla
     public void nuevoElemento(){
